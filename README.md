@@ -11,43 +11,78 @@ clean_user_reviews dataset combined
 1.	Data preprocessing.
 3.1 Conversion of identified Numerical columns to int or float from object datatype (Reviews, Size, Installs, Price needed preprocessing and typecasting to numerical)
 4.	Data cleaning
+
 	4.1 Handling missing values for Size Column.
+
 	4.2 Handling missing values for Rating Column
+
 	4.3 Handling missing values for Columns of Type, Android version, and Current version
+
 	4.4 Removing Duplicates rows
+
       		4.4.1 By index
+
+
       		4.4.2 By App name
+
 5.	Loading second Dataset (User Reviews)
 6.	Looking at details of dataset like head, shape, tail, info, descriptive statistics
 7.	Data Cleaning (Removing nan values)
 8.	Handling outliers, visualization of First dataset (Play store ) outliers
+
 	8.1 Handling Size outliers
+
 	8.2 Handling Rating outliers
+
 	8.3 Handling Reviews outliers
+
 	8.4 Handling Price outliers
 9.	EDA
+
 	9.1 Play Store dataset
+
     		9.1.1 Correlation matrix with heatmap 
+
     		9.1.2 Category with the maximum number of apps
+
     		9.1.3 Top 10 apps that made the most profit (Paid Apps)
+
     		9.1.4 Common price range most of the apps have (Paid Apps)
+
     		9.1.5 Checking correlation between Price and Installs (Paid Apps)
+
     		9.1.6 Category with a maximum average of app purchases
+
     		9.1.7 Category having most of the paid apps
+
     		9.1.8 Category that has maximum Installs (Sum of all app installs under category)
+
     		9.1.9 Visualizing the average rating of category
+
     		9.1.10 Content Rating proportion (Pie Chart)
+
     		9.1.11 Check the Average Installs of app Content Rating wise (To check the age-wise usage of apps)
+
     		9.1.12 Check if customers feel the size of app a burden
+
     		9.1.13 Best rated and underrated apps based on Genres of apps vs mean of rating
+
     		9.1.14 Check if any trend recorded in Installs and Updates releases vs Months  
+
     		9.1.15 Visualize the size of the apps compared to genres
+
 	9.2 Visualization of Second dataset User Reviews
+
      		9.2.1 Correlation matrix with heatmap
+
      		9.2.2 Proportion of apps having positive, negative, and neutral  feedback from customer
+
 	9.3 Combining both the datasets
+
     		9.3.1 Data Cleaning
+
     		9.3.2 Top 10 apps with most positive feedback and negative feedback with a minimum of 100 feedback counts
+
 10. 6 Sheets of Data Visualization of combined data in Tableau BI tool
 
 
